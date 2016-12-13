@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  backendUrl: '/assets/fixture/site.json',
+  amapKey: 'd3f5d8b3b05231fa6a11375492310e3a',
+  twemojiBase: '//cdn.bootcss.com/twemoji/2.2.1/',
 };

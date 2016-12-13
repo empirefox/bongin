@@ -1,0 +1,6 @@
+<div [id]="panel.id" [ngSwitch]="panel.pattern">
+  <luck-featurette-panel *ngSwitchCase="'Featurette'" [panel]="panel"></luck-featurette-panel>
+  <luck-mpanel-panel *ngSwitchCase="'Mpanel'" [panel]="panel"></luck-mpanel-panel>
+  <luck-thumbnail-panel *ngSwitchCase="'Thumbnail'" [panel]="panel"></luck-thumbnail-panel>
+  <p *ngSwitchDefault>ERR:{{panel.pattern}}</p>
+</div>

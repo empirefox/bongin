@@ -1,0 +1,6 @@
+<template [ngIf]="src">
+  <a *ngIf="link" [href]="link">
+    <img [src]="src" [ngClass]="clazz" (load)="load.next($event)">
+  </a>
+  <img *ngIf="!link" [src]="src" [ngClass]="clazz" (load)="load.next($event)">
+</template>

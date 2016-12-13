@@ -1,0 +1,6 @@
+.full-container>.row {
+	margin: 0;
+}
+.full-container>.row .col-md-12{
+	padding: 0;
+}

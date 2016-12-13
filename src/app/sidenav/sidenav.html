@@ -1,0 +1,4 @@
+<div [ngSwitch]="page.sidenav.typ" class="gumshoe">
+	<luck-sidenav-bs [page]="page" *ngSwitchCase="'bs'"></luck-sidenav-bs>
+	<p *ngSwitchDefault>ERR:{{page.sidenav.typ}}</p>
+</div>

@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  backendUrl: '/assets/fixture/site.json',
+  amapKey: 'your amap key here',
+  twemojiBase: '',
 };

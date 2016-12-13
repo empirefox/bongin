@@ -1,0 +1,12 @@
+<div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top" role="complementary">
+	<ul class="nav bs-docs-sidenav">
+		<li *ngFor="let section of page.sider">
+			<a pageScroll [href]="section.id" [name]="section.id">{{section.title}}</a>
+			<ul class="nav">
+				<li *ngFor="let panel of section.items">
+					<a pageScroll [href]="panel.id" [name]="panel.id">{{panel.title}}</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>

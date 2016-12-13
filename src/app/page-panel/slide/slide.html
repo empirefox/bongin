@@ -1,0 +1,6 @@
+<luck-img [src]="panel.img" [link]="panel.detailid" [clazz]="imgclass"></luck-img>
+<div class="carousel-caption" [style.textAlign]="panel.txtalign">
+  <h4 *ngIf="panel.head">{{panel.head}}</h4>
+  <p>{{panel.body}}</p>
+  <em *ngIf="panel.foot">{{panel.foot}}</em>
+</div>

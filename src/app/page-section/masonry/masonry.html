@@ -1,0 +1,5 @@
+<masonry [options]="options" [useImagesLoaded]="true">
+	<div masonry-brick *ngFor="let panel of panels" [ngClass]="layoutClasses" [style.margin-bottom]="pattern.vgutter">
+		<luck-panel [panel]="panel"></luck-panel>
+	</div>
+</masonry>

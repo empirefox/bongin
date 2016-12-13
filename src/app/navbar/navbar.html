@@ -1,0 +1,39 @@
+<div class="navbar navbar-default navbar-fixed-top gumshoe-header">
+	<div class="container">
+		<div class="navbar-header hidden-md-up">
+			<button type="button" class="navbar-toggle pull-right" (click)="isCollapsed = !isCollapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<a class="navbar-brand visible-xs" href="#">{{profile.shortcom}}</a>
+		</div>
+		<nav class="hidden-xs hidden-xs-down">
+			<ul class="nav navbar-nav">
+				<li class="nav-item">
+					<a [routerLink]="['/']" role="button" class="navbar-brand">{{profile.shortcom}}</a>
+				</li>
+				<li *ngFor="let item of items" class="nav-item" routerLinkActive="active">
+					<a class="nav-link" [routerLink]="['/page', item.id]">
+						<fa [fa]="item.fa"></fa>{{item.name}}
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="visible-xs hidden-md-up">
+			<ul class="nav nav-pills nav-stacked scrollable-menu" [collapse]="isCollapsed" (click)="isCollapsed = !isCollapsed; true">
+				<li class="nav-item">
+					<a [routerLink]="['/']" role="button" class="navbar-brand">{{profile.shortcom}}</a>
+				</li>
+				<li *ngFor="let item of items" class="nav-item" routerLinkActive="active">
+					<a class="nav-link" [routerLink]="['/page', item.id]">
+						<fa [fa]="item.fa"></fa>{{item.name}}</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+<div class="navbar navbar-placeholder"></div>
+
+<luck-page-header *ngIf="page?.showheader" [page]="page"></luck-page-header>

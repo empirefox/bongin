@@ -1,0 +1,11 @@
+<luck-navbar [profile]="profile" [page]="page"></luck-navbar>
+<div *ngIf="page" [class.container]="page.showside">
+	<div style="clear:both"></div>
+	<div [class.col-md-9]="page.showside">
+		<luck-page-section [section]="section" *ngFor="let section of page.sections"></luck-page-section>
+	</div>
+	<div *ngIf="page.showside" class="col-md-3">
+		<luck-sidenav [page]="page"></luck-sidenav>
+	</div>
+</div>
+<no-content *ngIf="noContent&&!page"></no-content>

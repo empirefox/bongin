@@ -1,0 +1,19 @@
+<swiper [config]="pattern">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide" *ngFor="let p of panels">
+			<luck-img [src]="p.img" [link]="p.detailid" [clazz]="imgType"></luck-img>
+			<div class="carousel-caption" [style.textAlign]="p.txtalign">
+				<h4 *ngIf="p.head">{{p.head}}</h4>
+				<dynamic-html [content]="p.template"></dynamic-html>
+				<em *ngIf="p.foot">{{p.foot}}</em>
+			</div>
+		</div>
+	</div>
+	<!-- Add Pagination -->
+	<div *ngIf="pattern.paging" class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+	<template [ngIf]="pattern.arrows">
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	</template>
+</swiper>

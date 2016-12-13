@@ -1,0 +1,8 @@
+<div class="thumbnail" [luckBg]="panel.bg">
+  <luck-img [src]="panel.img" [link]="panel.detailid" [clazz]="imgType" (load)="onImgLoad()"></luck-img>
+  <div class="caption">
+    <h3 *ngIf="panel.head">{{panel.head}}</h3>
+    <dynamic-html [content]="panel.template"></dynamic-html>
+    <em *ngIf="panel.foot" class="small">{{panel.foot}}</em>
+  </div>
+</div>
