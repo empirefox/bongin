@@ -57,10 +57,7 @@
       "hfull": true,
       "pattern": "Plain",
       "sideshow": false,
-      "bg": {
-        "typ": "pattern",
-        "pattern": "honeycomb"
-      },
+      "bg": "bg-pattern:blueprintgrid",
       "panels": [
         {
           "body": "[luck1](#p20000s2)\n\n[luck2](/page/20000#p20000s2)\n\n",

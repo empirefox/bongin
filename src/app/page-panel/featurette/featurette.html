@@ -3,7 +3,7 @@
     <div [ngClass]="imgClasses">
       <luck-img [src]="panel.img" [link]="panel.detailid" [clazz]="imgType" (load)="onThisImgLoad($event)"></luck-img>
     </div>
-    <div [luckBg]="panel.bg" [ngClass]="txtClasses" [style.marginTop.px]="txtMarginTop" [style.textAlign]="panel.txtalign">
+    <div [bg]="panel.bg" [ngClass]="txtClasses" [style.marginTop.px]="txtMarginTop" [style.textAlign]="panel.txtalign">
       <h2 *ngIf="panel.head" class="featurette-heading">{{panel.head}}</h2>
       <div class="lead">
         <dynamic-html [content]="panel.template"></dynamic-html>

@@ -1,4 +1,4 @@
-<div [id]="section.id" [ngClass]="viewClasses" [luckBg]="section.bg">
+<div [id]="section.id" [ngClass]="viewClasses" [bg]="section.bg">
   <div [ngClass]="sectionClasses" class="row">
     <h2 *ngIf="section.pattern!=='Swiper'">{{section.title}}</h2>
     <dynamic-html [content]="section.template"></dynamic-html>

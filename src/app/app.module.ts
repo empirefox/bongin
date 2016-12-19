@@ -10,7 +10,10 @@ import { SwiperModule } from 'angular2-useful-swiper';
 import { CollapseModule } from 'ng2-bootstrap/components/collapse';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { AMAP_KEY } from 'ng2-amap-input/amap/tokens';
+import { BgDirective } from 'ng2-bg-input/directives/bg';
 import { FaComponent } from 'ng2-fa-input/components/fa';
+import { PatternsService, SVG_PATTERNS } from 'ng2-pattern-input/services/patterns.service';
+import { value as patterns } from 'ng2-pattern-input/patterns';
 import { TrianglifyRenderer } from 'ng2-trianglify-input/services/trianglify-renderer.service';
 import { MdService } from 'ng2-smd-input/services/md.service';
 
@@ -38,6 +41,7 @@ import { SIDENAV_DIRECTIVES } from './sidenav';
 
     ...APP_DIRECTIVES,
     ...APP_CORE_PIPES,
+    BgDirective,
     FaComponent,
     LuckLinkComponent,
     LuckImgComponent,
@@ -67,9 +71,11 @@ import { SIDENAV_DIRECTIVES } from './sidenav';
   ],
   providers: [
     ...PUBLIC_PROVIDERS,
+    PatternsService,
     TrianglifyRenderer,
     MdService,
     { provide: AMAP_KEY, useValue: environment.amapKey },
+    { provide: SVG_PATTERNS, useValue: patterns },
   ],
   bootstrap: [AppComponent]
 })

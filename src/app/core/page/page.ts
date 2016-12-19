@@ -1,4 +1,3 @@
-import { Bg } from '../bg';
 import { ISection } from './section';
 import { ISidenav, Sidenav } from './sidenav';
 
@@ -8,7 +7,7 @@ export interface IHeader {
   height: number;
   body: string;
 
-  bg?: Bg;
+  bg?: string;
 
   template: string;
 }
@@ -22,7 +21,7 @@ export interface IPage {
   ishome?: boolean;
   navshow?: boolean;
   showside?: boolean;
-  bg?: Bg;
+  bg?: string;
 
   header?: IHeader;
   showheader: boolean;

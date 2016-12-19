@@ -1,6 +1,6 @@
 <div [class]="panelType">
   <div *ngIf="panel.head" class="panel-heading">{{panel.head}}</div>
-  <div class="panel-body" [luckBg]="panel.bg">
+  <div class="panel-body" [bg]="panel.bg">
     <dynamic-html [content]="panel.template"></dynamic-html>
   </div>
   <div *ngIf="panel.foot" class="panel-footer">{{panel.foot}}</div>

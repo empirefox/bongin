@@ -1,4 +1,4 @@
-<div class="thumbnail" [luckBg]="panel.bg">
+<div class="thumbnail" [bg]="panel.bg">
   <luck-img [src]="panel.img" [link]="panel.detailid" [clazz]="imgType" (load)="onImgLoad()"></luck-img>
   <div class="caption">
     <h3 *ngIf="panel.head">{{panel.head}}</h3>

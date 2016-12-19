@@ -3,10 +3,7 @@
   "header": {
     "body": "### 8-)[Emojies](https://github.com/markdown-it/markdown-it-emoji)\n\n[luck1](#p20000s2)\n\n[luck2](/page/20000#p20000s2)\n\n> Classic<h1>h1title</h1> markup: :wink: :crush: :cry: :tear: :laughing: :yum:\n>\n> Shortcuts (emoticons): :-) :-( 8-) ;)\n\nsee [how to change output](#p20000s3) with twemoji.\n",
     "height": 0,
-    "bg": {
-      "typ": "pattern",
-      "pattern": "honeycomb"
-    },
+    "bg": "bg-pattern:honeycomb",
     "hfull": true
   },
   "showside": true,
@@ -29,10 +26,7 @@
           "head": "thumbnail head",
           "img": "",
           "pattern": "Thumbnail",
-          "bg": {
-            "typ": "pattern",
-            "pattern": "honeycomb"
-          }
+          "bg": "bg-pattern:argyle"
         }
       ]
     },
@@ -51,10 +45,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "colorful",
-            "colorful": "4,z,2n,1j,3w,2i,1e,69,2n,1e,9g,2s,1j"
-          }
+          "bg": "bg-colorful:4,z,2n,1j,3w,2i,1e,69,2n,1e,9g,2s,1j"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -63,10 +54,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "trianglify",
-            "trianglify": "YlGn-30-0.3"
-          }
+          "bg": "bg-trianglify:YlGn-30-0.3"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -75,10 +63,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-color:red"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -87,10 +72,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:specklednoise"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -99,10 +81,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:thinstripes"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -111,10 +90,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:subtledots"
         }
       ]
     },
@@ -133,10 +109,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:crossstripes"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -145,10 +118,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:whitecarbon"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -157,10 +127,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:simplehorizontal"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -169,10 +136,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:transparent"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -181,10 +145,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:halfrombes"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -193,10 +154,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:shippo"
         }
       ]
     },
@@ -215,10 +173,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:verticalstripes"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -227,10 +182,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:waves"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -239,10 +191,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:checkerboard"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -251,10 +200,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:microbialmat"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -263,10 +209,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:carbonfiber"
         },
         {
           "body": "基础服务由全球最大云计算服务提供商亚马逊公司和全球最重要的Linux和开源技术提供商红帽公司作为构架支撑，构建稳定可靠的运行环境。",
@@ -275,10 +218,7 @@
           "head": "Mpanel head",
           "img": "",
           "pattern": "Mpanel",
-          "bg": {
-            "typ": "color",
-            "color": "red"
-          }
+          "bg": "bg-pattern:chevrons"
         }
       ]
     }

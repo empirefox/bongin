@@ -1,5 +1,4 @@
 import { featuretteImgtype } from '../share';
-import { Bg } from '../bg';
 
 export interface Featurette {
   imgtype?: string;
@@ -15,7 +14,7 @@ export interface IPanel {
   bodyid?: string;
   img?: string;
   pattern: string;
-  bg?: Bg;
+  bg?: string;
   txtalign?: string;
 
   Mpanel?: string;

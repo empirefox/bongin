@@ -1,5 +1,4 @@
 import { IPanel } from './panel';
-import { Bg } from '../bg';
 
 export interface Masonry {
   cols: number;
@@ -35,7 +34,7 @@ export interface ISection {
   detail?: string;
   cols: number;
   pattern?: string;
-  bg?: Bg;
+  bg?: string;
   hfull?: boolean;
   sideshow?: boolean;
 

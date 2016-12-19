@@ -5,7 +5,7 @@ import { DOCUMENT } from '@angular/platform-browser';
 
 import { OnMount } from 'ng-dynamic';
 import { PageScrollService, PageScrollInstance, PageScrollUtilService, EasingLogic } from 'ng2-page-scroll';
-import URL from 'url-parse';
+import URL = require('url-parse');
 
 import { IProfile, Profiler } from '../core';
 
